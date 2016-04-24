@@ -4,10 +4,10 @@ source 'https://rubygems.org'
 gem 'httparty'
 gem 'json'
 
-group :test do
+group :test, :development do
   gem 'bundler'
   gem 'rake'
   gem 'rspec'
   gem 'webmock'
-  gem 'rubocop'
+  gem 'coveralls', require: false
 end

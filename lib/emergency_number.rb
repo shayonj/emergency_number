@@ -1,12 +1,14 @@
 require_relative 'emergency_number/version.rb'
-require_relative 'client'
+require_relative 'normalize'
+require "httparty"
 
 module EmergencyNumber
-  def self.client
-    @client ||= Client.new
-  end
+  include HTTParty
+  base_uri 'http://emergencynumberapi.com/api/country'
 
   def self.get_country(code = :us)
-    client.get_country(code)
+    response = self.get("/#{code}/")
+    body = JSON.parse(response.body)
+    body.extend(Normalize)
   end
 end

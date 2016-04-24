@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'emergency_number/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "emergency_number"
+  spec.name          = 'emergency_number'
   spec.version       = EmergencyNumber::VERSION
   spec.authors       = ['Shayon Mukherjee']
   spec.email         = ['dev@shayon.me']

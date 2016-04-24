@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/shayonj/emergency_number.svg?branch=master)](https://travis-ci.org/shayonj/emergency_number)
+[![Coverage Status](https://coveralls.io/repos/github/shayonj/emergency_number/badge.svg?branch=master)](https://coveralls.io/github/shayonj/emergency_number?branch=master)
 
 # EmergencyNumber
 ```EmergencyNumber``` is a ruby gem for the [Emergency Number API](http://emergencynumberapi.com/) application.
@@ -17,24 +18,28 @@ gem 'emergency_number'
 
 And then execute:
 
-    $ bundle
+```ruby
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install emergency_number
+```ruby
+$ gem install emergency_number
+```
 
 ## Usage
-```
+```ruby
 require "emergency_number"
 ```
 ### Examples
-```
+```ruby
 $ EmergencyNumber.get_country(:us)
 $ EmergencyNumber.get_country(:in)
 $ EmergencyNumber.get_country(:fr)
 $ EmergencyNumber.get_country(:au)
 ```
-```
+```ruby
 $ @result = EmergencyNumber.get_country(:us)
 {
     "disclaimer" => "The data from this API is provided without any claims of accuracy, you should use this data as guidance, and do your own due dilligence.",
@@ -78,9 +83,9 @@ $ @result = EmergencyNumber.get_country(:us)
             "nodata" => false
     }
 }
-```
+```ruby
 ### Retrieving Data
-```
+```ruby
 $ @result.data
 
 {
@@ -125,7 +130,7 @@ $ @result.data
 ```
 
 ### Retrieving country name
-```
+```ruby
 $ @result.data.country.name
 => "United States of America"
 ```
