@@ -1,0 +1,42 @@
+{
+   "disclaimer":"The data from this API is provided without any claims of accuracy, you should use this data as guidance, and do your own due dilligence.",
+   "error":"",
+   "data":{
+      "country":{
+         "name":"United States of America",
+         "ISOCode":"US",
+         "ISONumeric":"840"
+      },
+      "ambulance":{
+         "all":[
+            ""
+         ],
+         "gsm":null,
+         "fixed":null
+      },
+      "fire":{
+         "all":[
+            ""
+         ],
+         "gsm":null,
+         "fixed":null
+      },
+      "police":{
+         "all":[
+            ""
+         ],
+         "gsm":null,
+         "fixed":null
+      },
+      "dispatch":{
+         "all":[
+            "911"
+         ],
+         "gsm":null,
+         "fixed":null
+      },
+      "member_112":false,
+      "localOnly":false,
+      "nodata":false
+   }
+}
