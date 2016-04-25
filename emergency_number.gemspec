@@ -13,6 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'Based on Emergency Number API. This ruby gem allows you to query the API and get any emergency numbers for any country in the world.'
   spec.homepage      = 'https://github.com/shayonj/emergency_number'
   spec.files         = Dir['{lib/**/*,spec/**/*,MIT-LICENSE,README.md,Gemfile}']
+  spec.required_ruby_version     = '>= 2.0.0'
   spec.platform      = Gem::Platform::RUBY
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']

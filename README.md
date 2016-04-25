@@ -8,6 +8,9 @@
  * Takes in one argument - ```country code```. Country can be an ISO3361-1_alpha-2 or ISO3361-1_numeric code.
  * Authentication is not required. Rate limit is the same as it is mentioned in  [Emergency Number API docs](http://emergencynumberapi.com/docs#rate-limiting).
 
+## Requirements
+* Ruby 2.0.0 or higher
+
 ## Installation
 
 Add this line to your application's Gemfile:
