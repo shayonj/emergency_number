@@ -1,3 +1,4 @@
 module EmergencyNumber
-  VERSION = '0.2.0'.freeze
+  # Final versioning for the gem.
+  VERSION = '0.3.0'.freeze
 end

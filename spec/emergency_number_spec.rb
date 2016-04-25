@@ -6,6 +6,10 @@ describe EmergencyNumber do
     @aq = EmergencyNumber.get_country(:aq)
     @invalid = EmergencyNumber.get_country(:foobar)
   end
+  it 'takes nil just fine' do
+    expect { EmergencyNumber.get_country }.to_not raise_error
+  end
+
   context 'tests for valid country codes' do
     it 'has a version number' do
       expect(EmergencyNumber::VERSION).not_to be nil
