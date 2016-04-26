@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/shayonj/emergency_number.svg?branch=master)](https://travis-ci.org/shayonj/emergency_number)
 [![Coverage Status](https://coveralls.io/repos/github/shayonj/emergency_number/badge.svg?branch=master)](https://coveralls.io/github/shayonj/emergency_number?branch=master)
-
+[![Gem Version](https://badge.fury.io/rb/emergency_number.svg)](https://badge.fury.io/rb/emergency_number)
 # EmergencyNumber
 ```EmergencyNumber``` is a ruby gem for the [Emergency Number API](http://emergencynumberapi.com/) application.
 
