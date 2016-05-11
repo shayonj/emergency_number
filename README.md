@@ -45,7 +45,7 @@ $ EmergencyNumber.get_country(:au) # or EmergencyNumber.get_country(36)
 ```ruby
 $ @result = EmergencyNumber.get_country(:us)
 {
-    :disclaimer => "The data from this API is provided without any claims of accuracy, you should use this data as guidance, and do your own due dilligence.",
+    :disclaimer => "The data from this API is provided without any claims of accuracy, you should use this data as guidance, and do your own due diligence.",
          :error => "",
           :data => {
            :country => {
